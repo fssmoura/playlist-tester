@@ -4,10 +4,10 @@ This repository contains a tiny script to fetch a .m3u8 URL from a webpage and u
 
 Quick test (PowerShell):
 
-```powershell
+powershell
 
 If the previous script doesn't find an m3u8 because it's loaded dynamically by JS,
-```markdown
+markdown
 # IPTV m3u8 updater (moved layout)
 
 Repository layout (moved):
