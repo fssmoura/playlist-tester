@@ -4,10 +4,10 @@ This repository contains a tiny script to fetch a .m3u8 URL from a webpage and u
 
 Quick test (PowerShell):
 
-```powershell
+powershell
 
 If the previous script doesn't find an m3u8 because it's loaded dynamically by JS,
-```markdown
+markdown
 # IPTV m3u8 updater (moved layout)
 
 Repository layout (moved):
@@ -46,6 +46,5 @@ playwright install
 ```
 
 Backups: scripts write timestamped backups to `backups/` by default. If you prefer a different policy, adjust the `--backup-dir` option.
-```
 
 Remove `--dry-run` to actually write the file. The script will create a timestamped `.bak` before modifying.
