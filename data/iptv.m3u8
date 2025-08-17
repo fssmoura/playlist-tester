@@ -27,7 +27,7 @@ https://pjxvijl.5606087801.art:8443/hls/hqwwgwycxiiy.m3u8?s=SUCLQNtYj2j44WeXql_l
 http://102.132.19.90:8001/play/a03u/index.m3u8
 #EXTINF:-1 tvg-country="PT" group-title="Sport TV" tvg-id="SPORT.TV6" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/portugal/sport-tv-6-pt.png",Sport TV 6
 http://102.132.29.118:8001/play/a039
-#EXTINF:-1 tvg-country="PT" group-title="Benfica TV" tvg-id="BENFICA.TV" tvg-logo="https://www.lyngsat.com/logo/tv/bb/benfica-tv-pt.svg",Benfica TV
+#EXTINF:-1 tvg-country="PT" group-title="Benfica TV" tvg-id="BENFICA.TV" tvg-logo="https://raw.githubusercontent.com/fssmoura/playlist-tester/refs/heads/main/img/benfica-tv-pt.png",Benfica TV
 #EXTVLCOPT:http-referrer=https://dropbang.net/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/139.0.7258.5 Safari/537.36
 https://pjxvijl.5606087801.art:8443/hls/2aw6pbbzi.m3u8?s=Cvt9dtQ_7_aVKdHiSDM4YA&e=1755469854
