@@ -1,12 +1,16 @@
 #EXTM3U
-#EXTINF:-1 tvg-country="PT" group-title="DAZN" tvg-id="DAZN1" tvg-logo="",DAZN 1
+#EXTINF:-1 tvg-country="PT" group-title="DAZN" tvg-id="DAZN1" tvg-logo="https://www.lyngsat.com/logo/tv/dd/dazn-1-uk.svg",DAZN 1
 #EXTVLCOPT:http-referrer=https://dropbang.net/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/139.0.7258.5 Safari/537.36
 https://pjxvijl.5606087801.art:8443/hls/cytjtehz5yzmrt.m3u8?s=QDiZH4ik952UlgNivSvWBA&e=1755465476
-#EXTINF:-1 tvg-country="PT" group-title="DAZN" tvg-id="DAZN2" tvg-logo="",DAZN 2
+#EXTINF:-1 tvg-country="PT" group-title="DAZN" tvg-id="DAZN2" tvg-logo="https://www.lyngsat.com/logo/tv/dd/dazn-2-uk.svg",DAZN 2
 #EXTVLCOPT:http-referrer=https://dropbang.net/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/139.0.7258.5 Safari/537.36
 https://pjxvijl.5606087801.art:8443/hls/98n38s9qy27ra.m3u8?s=ZGwJ8p1lB71GZ6Tw8obQEA&e=1755466191
+#EXTINF:-1 tvg-country="PT" group-title="DAZN" tvg-id="DAZN3" tvg-logo="https://www.lyngsat.com/logo/tv/dd/dazn-3-uk.svg",DAZN 3
+#EXTVLCOPT:http-referrer=https://dropbang.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/139.0.7258.5 Safari/537.36
+https://pjxvijl.5606087801.art:8443/hls/oguu22xaxhgpc.m3u8?s=CMak245OggOmsnc8kIlPmQ&e=1755468751
 #EXTINF:-1 tvg-country="PT" group-title="Sport TV" tvg-id="SPORT.TV1" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/portugal/sport-tv-1-pt.png",Sport TV 1
 http://102.132.19.90:8001/play/a03t/index.m3u8
 #EXTINF:-1 tvg-country="PT" group-title="Sport TV" tvg-id="SPORT.TV2" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/portugal/sport-tv-2-pt.png",Sport TV 2
@@ -23,3 +27,7 @@ https://pjxvijl.5606087801.art:8443/hls/hqwwgwycxiiy.m3u8?s=SUCLQNtYj2j44WeXql_l
 http://102.132.19.90:8001/play/a03u/index.m3u8
 #EXTINF:-1 tvg-country="PT" group-title="Sport TV" tvg-id="SPORT.TV6" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/portugal/sport-tv-6-pt.png",Sport TV 6
 http://102.132.29.118:8001/play/a039
+#EXTINF:-1 tvg-country="PT" group-title="Benfica TV" tvg-id="BENFICA.TV" tvg-logo="https://www.lyngsat.com/logo/tv/bb/benfica-tv-pt.svg",Benfica TV
+#EXTVLCOPT:http-referrer=https://dropbang.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/139.0.7258.5 Safari/537.36
+https://pjxvijl.5606087801.art:8443/hls/2aw6pbbzi.m3u8?s=Cvt9dtQ_7_aVKdHiSDM4YA&e=1755469854
