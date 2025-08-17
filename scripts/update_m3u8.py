@@ -71,17 +71,21 @@ def update_m3u_file(file_path: Path, tvg_id: str, new_url: str, dry_run: bool = 
             target_idx = i
             break
 
-    # fallback: if the tvg-id isn't present, and tvg_id ends with a number (e.g. SPORT.TV4),
-    # try to match a display title like 'Sport TV 4' (case-insensitive)
+    # fallback: if the tvg-id isn't present, try a numeric fallback only when the
+    # requested id is actually a SPORT.TV* id (e.g. SPORT.TV4). This avoids
+    # accidental matches when the tvg-id is something like ELEVEN1 which would
+    # otherwise match 'Sport TV 1'.
     if target_idx is None:
-        import re as _re
-        m = _re.search(r"(\d+)$", tvg_id)
-        if m:
-            num = m.group(1)
-            for i, line in enumerate(lines):
-                if _re.search(rf"Sport\s*TV\s*{num}", line, _re.I):
-                    target_idx = i
-                    break
+        tvg_upper = tvg_id.upper()
+        if tvg_upper.startswith('SPORT.TV') or tvg_upper.startswith('SPORTTV'):
+            import re as _re
+            m = _re.search(r"(\d+)$", tvg_id)
+            if m:
+                num = m.group(1)
+                for i, line in enumerate(lines):
+                    if _re.search(rf"Sport\s*TV\s*{num}", line, _re.I):
+                        target_idx = i
+                        break
 
     if target_idx is None:
         raise RuntimeError(f"Could not find EXTINF entry for {tvg_id} in {file_path}")
@@ -148,14 +152,13 @@ def update_m3u_file(file_path: Path, tvg_id: str, new_url: str, dry_run: bool = 
 
     # perform write (backup then replace slice)
     if not dry_run:
-        # write backup into backup_dir when provided, else beside file
+        # write backup only when an explicit backup_dir is provided. If backup_dir
+        # is None we will NOT create a backup (user requested no backups / deleted backups folder).
         if backup_dir:
             backup_dir.mkdir(parents=True, exist_ok=True)
             bak = backup_dir / (file_path.name + ".bak." + datetime.utcnow().strftime("%Y%m%dT%H%M%SZ"))
-        else:
-            bak = file_path.with_name(file_path.name + ".bak." + datetime.utcnow().strftime("%Y%m%dT%H%M%SZ"))
-        if not bak.exists():
-            bak.write_text(text, encoding="utf-8")
+            if not bak.exists():
+                bak.write_text(text, encoding="utf-8")
         # replace the existing comment+url block
         new_block = insert_lines + [new_url]
         lines[start_replace:end_replace] = new_block
@@ -178,7 +181,7 @@ def main():
     parser.add_argument("--file", default="../data/iptv.m3u8", help="Path to iptv.m3u8 file (relative to scripts/)")
     parser.add_argument("--tvg", default="SPORT.TV2", help="tvg-id to replace (default: SPORT.TV2)")
     parser.add_argument("--dry-run", action="store_true", help="Don't write file; just report")
-    parser.add_argument("--backup-dir", default="../backups", help="Directory to write backups into (relative to scripts/)")
+    parser.add_argument("--backup-dir", default=None, help="Directory to write backups into (relative to scripts/). If omitted no backups will be created.")
     args = parser.parse_args()
     # resolve paths relative to scripts/
     base = Path(__file__).resolve().parent
