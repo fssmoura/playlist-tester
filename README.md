@@ -46,5 +46,5 @@ playwright install
 ```
 
 Backups: scripts write timestamped backups to `backups/` by default. If you prefer a different policy, adjust the `--backup-dir` option.
-```
+
 Remove `--dry-run` to actually write the file. The script will create a timestamped `.bak` before modifying.
