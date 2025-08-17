@@ -1,13 +1,13 @@
 #EXTM3U
-#EXTINF:-1 tvg-country="PT" group-title="DAZN" tvg-id="DAZN1" tvg-logo="https://www.lyngsat.com/logo/tv/dd/dazn-1-uk.svg",DAZN 1
+#EXTINF:-1 tvg-country="PT" group-title="DAZN" tvg-id="DAZN1" tvg-logo="https://raw.githubusercontent.com/fssmoura/playlist-tester/refs/heads/main/img/dazn-1-uk.png",DAZN 1
 #EXTVLCOPT:http-referrer=https://dropbang.net/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/139.0.7258.5 Safari/537.36
 https://pjxvijl.5606087801.art:8443/hls/cytjtehz5yzmrt.m3u8?s=QDiZH4ik952UlgNivSvWBA&e=1755465476
-#EXTINF:-1 tvg-country="PT" group-title="DAZN" tvg-id="DAZN2" tvg-logo="https://www.lyngsat.com/logo/tv/dd/dazn-2-uk.svg",DAZN 2
+#EXTINF:-1 tvg-country="PT" group-title="DAZN" tvg-id="DAZN2" tvg-logo="https://raw.githubusercontent.com/fssmoura/playlist-tester/refs/heads/main/img/dazn-2-uk.png",DAZN 2
 #EXTVLCOPT:http-referrer=https://dropbang.net/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/139.0.7258.5 Safari/537.36
 https://pjxvijl.5606087801.art:8443/hls/98n38s9qy27ra.m3u8?s=ZGwJ8p1lB71GZ6Tw8obQEA&e=1755466191
-#EXTINF:-1 tvg-country="PT" group-title="DAZN" tvg-id="DAZN3" tvg-logo="https://www.lyngsat.com/logo/tv/dd/dazn-3-uk.svg",DAZN 3
+#EXTINF:-1 tvg-country="PT" group-title="DAZN" tvg-id="DAZN3" tvg-logo="https://raw.githubusercontent.com/fssmoura/playlist-tester/refs/heads/main/img/dazn-3-uk.png",DAZN 3
 #EXTVLCOPT:http-referrer=https://dropbang.net/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/139.0.7258.5 Safari/537.36
 https://pjxvijl.5606087801.art:8443/hls/oguu22xaxhgpc.m3u8?s=CMak245OggOmsnc8kIlPmQ&e=1755468751
