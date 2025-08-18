@@ -9,6 +9,7 @@ import json
 import time
 import random
 import argparse
+import os
 
 BASE = Path(__file__).resolve().parent
 CHANNELS_FILE = BASE / "channels.json"
@@ -85,6 +86,29 @@ def main():
 
     channels = json.loads(CHANNELS_FILE.read_text(encoding='utf-8'))
     cache = load_cache()
+
+    # Configurable threshold (minutes). Can override with env var CHECK_THRESHOLD_MINUTES.
+    THRESHOLD_MIN = int(os.environ.get("CHECK_THRESHOLD_MINUTES", "30"))
+    THRESHOLD = THRESHOLD_MIN * 60
+
+    # If no cache or cache empty -> proceed to probe so we populate it.
+    if not cache:
+        print("No cache found — proceeding to probe to populate last_good.json")
+    else:
+        # Find the nearest expiry we know about
+        now = time.time()
+        nearest = None
+        for v in cache.values():
+            exp = v.get("expires_at")
+            if isinstance(exp, (int, float)):
+                if nearest is None or exp < nearest:
+                    nearest = exp
+        # If we have an expiry and it's not within the threshold, exit early.
+        if nearest and (nearest - now > THRESHOLD):
+            mins = int((nearest - now) / 60)
+            print(f"No tokens expiring within {THRESHOLD_MIN} minutes (nearest in ~{mins}m). Exiting.")
+            return
+
     changed = False
 
     for channel_key, sources in channels.items():

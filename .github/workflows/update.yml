@@ -4,7 +4,7 @@ permissions:
 
 on:
   schedule:
-    - cron: '0 2 * * *'
+    - cron: '0 * * * *'    # run hourly at minute 0 (UTC)
   workflow_dispatch:
 
 jobs:
@@ -29,6 +29,8 @@ jobs:
           python -m playwright install --with-deps
 
       - name: Run updater
+        env:
+          CHECK_THRESHOLD_MINUTES: "30"
         run: |
           python scripts/update_playlist.py --use-playwright
 
