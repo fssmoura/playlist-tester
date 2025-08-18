@@ -18,5 +18,25 @@
   "SPORT.TV5": {
     "url": "https://srvagu.6522236688.shop:8443/hls/vndxx07b0.m3u8?s=ImFXN78BT21FJNdjELOBYQ&e=1755555867",
     "expires_at": 1755555837
+  },
+  "Sport TV1.pt": {
+    "url": "https://pjxvijl.5606087801.art:8443/hls/xt4p2tyjgzsp4t.m3u8?s=RCKaQ1S9Rs_qQRjBWkOGwA&e=1755558120",
+    "expires_at": 1755558090
+  },
+  "Sport TV2.pt": {
+    "url": "https://pjxvijl.5606087801.art:8443/hls/dm4f0c0bxcxxsau.m3u8?s=nde61lzA30nzCrYEfpAseg&e=1755558147",
+    "expires_at": 1755558117
+  },
+  "Sport TV3.pt": {
+    "url": "https://pjxvijl.5606087801.art:8443/hls/4h80gffrr5803z.m3u8?s=73VQG_Q7M62rXouCM915lA&e=1755558173",
+    "expires_at": 1755558143
+  },
+  "Sport TV4.pt": {
+    "url": "https://pjxvijl.5606087801.art:8443/hls/hqwwgwycxiiy.m3u8?s=CMuX7jfvU4tvg6ZsXDjXIg&e=1755558202",
+    "expires_at": 1755558172
+  },
+  "Sport TV5.pt": {
+    "url": "https://pjxvijl.5606087801.art:8443/hls/vndxx07b0.m3u8?s=9QBpNP0dCTUdp0p_bqkwUw&e=1755558229",
+    "expires_at": 1755558199
   }
 }

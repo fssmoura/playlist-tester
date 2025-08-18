@@ -1,10 +1,16 @@
 #EXTM3U
 #EXTINF:-1 tvg-country="PT" group-title="Full HD" tvg-id="Sport TV1.pt" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/portugal/sport-tv-1-pt.png",Sport TV 1
-http://102.132.19.90:8001/play/a03t/index.m3u8
+#EXTVLCOPT:http-referrer=https://dropbang.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.5790.170 Safari/537.36
+https://pjxvijl.5606087801.art:8443/hls/xt4p2tyjgzsp4t.m3u8?s=RCKaQ1S9Rs_qQRjBWkOGwA&e=1755558120
 #EXTINF:-1 tvg-country="PT" group-title="Full HD" tvg-id="Sport TV3.pt" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/portugal/sport-tv-3-pt.png",Sport TV 3
-http://102.132.19.90:8001/play/a03m/index.m3u8
+#EXTVLCOPT:http-referrer=https://dropbang.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.5790.170 Safari/537.36
+https://pjxvijl.5606087801.art:8443/hls/4h80gffrr5803z.m3u8?s=73VQG_Q7M62rXouCM915lA&e=1755558173
 #EXTINF:-1 tvg-country="PT" group-title="Full HD" tvg-id="Sport TV5.pt" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/portugal/sport-tv-5-pt.png",Sport TV 5
-http://102.132.19.90:8001/play/a03u/index.m3u8
+#EXTVLCOPT:http-referrer=https://dropbang.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.5790.170 Safari/537.36
+https://pjxvijl.5606087801.art:8443/hls/vndxx07b0.m3u8?s=9QBpNP0dCTUdp0p_bqkwUw&e=1755558229
 #EXTINF:-1 tvg-country="PT" group-title="Full HD" tvg-id="Sport TV6.pt" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/portugal/sport-tv-6-pt.png",Sport TV 6
 http://102.132.29.118:8001/play/a039
 #EXTINF:-1 tvg-country="PT" group-title="HD" tvg-id="DAZN 1.pt" tvg-logo="https://raw.githubusercontent.com/fssmoura/playlist-tester/refs/heads/main/img/dazn-1-uk.png",DAZN 1
@@ -34,7 +40,7 @@ https://pjxvijl.5606087801.art:8443/hls/xt4p2tyjgzsp4t.m3u8?s=TkWF4xyI20T4ZWWzFX
 #EXTINF:-1 tvg-country="PT" group-title="HD" tvg-id="Sport TV2.pt" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/portugal/sport-tv-2-pt.png",Sport TV 2
 #EXTVLCOPT:http-referrer=https://dropbang.net/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.5790.170 Safari/537.36
-https://srvagu.6522236688.shop:8443/hls/dm4f0c0bxcxxsau.m3u8?s=JP5hCkcNB3NWccmTEp8cJw&e=1755555805
+https://pjxvijl.5606087801.art:8443/hls/dm4f0c0bxcxxsau.m3u8?s=nde61lzA30nzCrYEfpAseg&e=1755558147
 #EXTINF:-1 tvg-country="PT" group-title="HD" tvg-id="Sport TV3.pt" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/portugal/sport-tv-3-pt.png",Sport TV 3
 #EXTVLCOPT:http-referrer=https://dropbang.net/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/139.0.7258.5 Safari/537.36
@@ -42,7 +48,7 @@ https://pjxvijl.5606087801.art:8443/hls/4h80gffrr5803z.m3u8?s=3KGfgt4YU9uogN3H8a
 #EXTINF:-1 tvg-country="PT" group-title="HD" tvg-id="Sport TV4.pt" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/portugal/sport-tv-4-pt.png",Sport TV 4
 #EXTVLCOPT:http-referrer=https://dropbang.net/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.5790.170 Safari/537.36
-https://srvagu.6522236688.shop:8443/hls/hqwwgwycxiiy.m3u8?s=oVn1jPSx0bEOr5PwMfEd-w&e=1755555846
+https://pjxvijl.5606087801.art:8443/hls/hqwwgwycxiiy.m3u8?s=CMuX7jfvU4tvg6ZsXDjXIg&e=1755558202
 #EXTINF:-1 tvg-country="PT" group-title="HD" tvg-id="Sport TV5.pt" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/portugal/sport-tv-5-pt.png",Sport TV 5
 #EXTVLCOPT:http-referrer=https://dropbang.net/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/139.0.7258.5 Safari/537.36
