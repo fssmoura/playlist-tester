@@ -1,0 +1,563 @@
+{
+  "generated_at": 1755532459.6193554,
+  "channels": {
+    "SPORT.TV1": [
+      {
+        "source": "https://sportsonline.si/channels/pt/sporttv1.php",
+        "candidates": [
+          {
+            "source": "https://sportsonline.si/channels/pt/sporttv1.php",
+            "url": "https://srvagu.6522236688.shop:8443/hls/xt4p2tyjgzsp4t.m3u8?s=uEBnYpQgqkGulO4Zclwyqw&e=1755554060",
+            "method": "playwright",
+            "referer": "https://dropbang.net/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.5790.170 Safari/537.36",
+            "valid": false,
+            "error": null,
+            "cookies": {
+              "HstCfa4743517": "1755532461031",
+              "HstCla4743517": "1755532461031",
+              "HstCmu4743517": "1755532461031",
+              "HstPn4743517": "1",
+              "HstPt4743517": "1",
+              "HstCnv4743517": "1",
+              "HstCns4743517": "1",
+              "hf1": "1"
+            }
+          }
+        ]
+      },
+      {
+        "source": "https://elixx.cc/porto.html",
+        "candidates": [
+          {
+            "source": "https://elixx.cc/porto.html",
+            "url": "https://srvagu.6522236688.shop:8443/hls/xt4p2tyjgzsp4t.m3u8?s=tzMoNjhEH5vXmBqv5vQ_LQ&e=1755554081",
+            "method": "playwright",
+            "referer": "https://admitsettle.net/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.5790.170 Safari/537.36",
+            "valid": false,
+            "error": null,
+            "cookies": {
+              "HstCfa3989073": "1755532481769",
+              "HstCla3989073": "1755532481769",
+              "HstCmu3989073": "1755532481769",
+              "HstPn3989073": "1",
+              "HstPt3989073": "1",
+              "HstCnv3989073": "1",
+              "HstCns3989073": "1",
+              "HstCfa3190245": "1755532482029",
+              "HstCmu3190245": "1755532482029",
+              "HstCnv3190245": "1",
+              "HstCns3190245": "1",
+              "HstCla3190245": "1755532482031",
+              "HstPn3190245": "2",
+              "HstPt3190245": "2",
+              "sc_is_visitor_unique": "rx11864503.1755532482.4C8600C8FCD045FB9F0EA0B74C312E0A.1.1.1.1.1.1.1.1.1",
+              "hf1": "1",
+              "is_unique": "sc11864503.1755532481.0",
+              "is_visitor_unique": "1755532481179484167"
+            }
+          }
+        ]
+      },
+      {
+        "source": "https://thedaddy.top/stream/stream-49.php",
+        "candidates": []
+      }
+    ],
+    "SPORT.TV2": [
+      {
+        "source": "https://sportsonline.si/channels/pt/sporttv2.php",
+        "candidates": [
+          {
+            "source": "https://sportsonline.si/channels/pt/sporttv2.php",
+            "url": "https://srvagu.6522236688.shop:8443/hls/dm4f0c0bxcxxsau.m3u8?s=O_99OkL_P7dqB-z6dDcgGA&e=1755554138",
+            "method": "playwright",
+            "referer": "https://dropbang.net/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.5790.170 Safari/537.36",
+            "valid": false,
+            "error": null,
+            "cookies": {
+              "HstCfa4743517": "1755532538548",
+              "HstCla4743517": "1755532538548",
+              "HstCmu4743517": "1755532538548",
+              "HstPn4743517": "1",
+              "HstPt4743517": "1",
+              "HstCnv4743517": "1",
+              "HstCns4743517": "1",
+              "hf1": "1"
+            }
+          }
+        ]
+      },
+      {
+        "source": "https://elixx.cc/benfica.html",
+        "candidates": [
+          {
+            "source": "https://elixx.cc/benfica.html",
+            "url": "https://srvagu.6522236688.shop:8443/hls/dm4f0c0bxcxxsau.m3u8?s=GOob9KoQ_tapCdzt1Xds6A&e=1755554159",
+            "method": "playwright",
+            "referer": "https://admitsettle.net/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.5790.170 Safari/537.36",
+            "valid": false,
+            "error": null,
+            "cookies": {
+              "HstCfa3989073": "1755532559365",
+              "HstCla3989073": "1755532559365",
+              "HstCmu3989073": "1755532559365",
+              "HstPn3989073": "1",
+              "HstPt3989073": "1",
+              "HstCnv3989073": "1",
+              "HstCns3989073": "1",
+              "HstCfa3190245": "1755532559629",
+              "HstCmu3190245": "1755532559629",
+              "HstCnv3190245": "1",
+              "HstCns3190245": "1",
+              "HstCla3190245": "1755532559631",
+              "HstPn3190245": "2",
+              "HstPt3190245": "2",
+              "sc_is_visitor_unique": "rx11864503.1755532560.153B9BF4AD5A4011B1C94EE5EF12E7E5.1.1.1.1.1.1.1.1.1",
+              "hf1": "1",
+              "is_unique": "sc11864503.1755532559.0",
+              "is_visitor_unique": "1755532559307115962"
+            }
+          }
+        ]
+      },
+      {
+        "source": "https://thedaddy.top/stream/stream-74.php",
+        "candidates": []
+      }
+    ],
+    "SPORT.TV3": [
+      {
+        "source": "https://sportsonline.si/channels/pt/sporttv3.php",
+        "candidates": [
+          {
+            "source": "https://sportsonline.si/channels/pt/sporttv3.php",
+            "url": "https://srvagu.6522236688.shop:8443/hls/4h80gffrr5803z.m3u8?s=MElCUVLs81-3HMy8Uqwukg&e=1755554220",
+            "method": "playwright",
+            "referer": "https://dropbang.net/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.5790.170 Safari/537.36",
+            "valid": false,
+            "error": null,
+            "cookies": {
+              "HstCfa4743517": "1755532621351",
+              "HstCla4743517": "1755532621351",
+              "HstCmu4743517": "1755532621351",
+              "HstPn4743517": "1",
+              "HstPt4743517": "1",
+              "HstCnv4743517": "1",
+              "HstCns4743517": "1",
+              "hf1": "1"
+            }
+          }
+        ]
+      },
+      {
+        "source": "https://elixx.cc/sporting.html",
+        "candidates": [
+          {
+            "source": "https://elixx.cc/sporting.html",
+            "url": "https://srvagu.6522236688.shop:8443/hls/4h80gffrr5803z.m3u8?s=WYafdJFPSHdaVR5ez4l0fA&e=1755554241",
+            "method": "playwright",
+            "referer": "https://admitsettle.net/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.5790.170 Safari/537.36",
+            "valid": false,
+            "error": null,
+            "cookies": {
+              "HstCfa3989073": "1755532642079",
+              "HstCla3989073": "1755532642079",
+              "HstCmu3989073": "1755532642079",
+              "HstPn3989073": "1",
+              "HstPt3989073": "1",
+              "HstCnv3989073": "1",
+              "HstCns3989073": "1",
+              "HstCfa3190245": "1755532642222",
+              "HstCmu3190245": "1755532642222",
+              "HstCnv3190245": "1",
+              "HstCns3190245": "1",
+              "HstCla3190245": "1755532642223",
+              "HstPn3190245": "2",
+              "HstPt3190245": "2",
+              "sc_is_visitor_unique": "rx11864503.1755532642.6D235A03AB1D492F9C4C351AE8D8CA90.1.1.1.1.1.1.1.1.1",
+              "is_unique": "sc11864503.1755532641.0",
+              "is_visitor_unique": "1755532641187459427",
+              "hf1": "1"
+            }
+          }
+        ]
+      },
+      {
+        "source": "https://thedaddy.top/stream/stream-454.php",
+        "candidates": []
+      }
+    ],
+    "SPORT.TV4": [
+      {
+        "source": "https://sportsonline.si/channels/pt/sporttv4.php",
+        "candidates": [
+          {
+            "source": "https://sportsonline.si/channels/pt/sporttv4.php",
+            "url": "https://srvagu.6522236688.shop:8443/hls/hqwwgwycxiiy.m3u8?s=GfVc-WSK5Md07eTQXTCz0A&e=1755554302",
+            "method": "playwright",
+            "referer": "https://dropbang.net/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.5790.170 Safari/537.36",
+            "valid": false,
+            "error": null,
+            "cookies": {
+              "HstCfa4743517": "1755532702738",
+              "HstCla4743517": "1755532702738",
+              "HstCmu4743517": "1755532702738",
+              "HstPn4743517": "1",
+              "HstPt4743517": "1",
+              "HstCnv4743517": "1",
+              "HstCns4743517": "1",
+              "hf1": "1"
+            }
+          }
+        ]
+      },
+      {
+        "source": "https://elixx.cc/braga.html",
+        "candidates": [
+          {
+            "source": "https://elixx.cc/braga.html",
+            "url": "https://srvagu.6522236688.shop:8443/hls/hqwwgwycxiiy.m3u8?s=a61DKlO0jdaIUc6245J3rw&e=1755554323",
+            "method": "playwright",
+            "referer": "https://admitsettle.net/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.5790.170 Safari/537.36",
+            "valid": false,
+            "error": null,
+            "cookies": {
+              "HstCfa3989073": "1755532723236",
+              "HstCla3989073": "1755532723236",
+              "HstCmu3989073": "1755532723236",
+              "HstPn3989073": "1",
+              "HstPt3989073": "1",
+              "HstCnv3989073": "1",
+              "HstCns3989073": "1",
+              "HstCfa3190245": "1755532723486",
+              "HstCmu3190245": "1755532723486",
+              "HstCnv3190245": "1",
+              "HstCns3190245": "1",
+              "HstCla3190245": "1755532723488",
+              "HstPn3190245": "2",
+              "HstPt3190245": "2",
+              "sc_is_visitor_unique": "rx11864503.1755532724.E93812B0C6294123AAA58BAC4D1DF7DB.1.1.1.1.1.1.1.1.1",
+              "hf1": "1",
+              "is_unique": "sc11864503.1755532723.0",
+              "is_visitor_unique": "175553272368533344"
+            }
+          }
+        ]
+      },
+      {
+        "source": "https://thedaddy.top/stream/stream-289.php",
+        "candidates": []
+      }
+    ],
+    "SPORT.TV5": [
+      {
+        "source": "https://sportsonline.si/channels/pt/sporttv5.php",
+        "candidates": [
+          {
+            "source": "https://sportsonline.si/channels/pt/sporttv5.php",
+            "url": "https://srvagu.6522236688.shop:8443/hls/vndxx07b0.m3u8?s=NcWDAW0D-CUAVFJ3u1X4Ng&e=1755554386",
+            "method": "playwright",
+            "referer": "https://dropbang.net/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.5790.170 Safari/537.36",
+            "valid": false,
+            "error": null,
+            "cookies": {
+              "HstCfa4743517": "1755532787008",
+              "HstCla4743517": "1755532787008",
+              "HstCmu4743517": "1755532787008",
+              "HstPn4743517": "1",
+              "HstPt4743517": "1",
+              "HstCnv4743517": "1",
+              "HstCns4743517": "1",
+              "hf1": "1"
+            }
+          }
+        ]
+      },
+      {
+        "source": "https://elixx.cc/fcboavista.html",
+        "candidates": [
+          {
+            "source": "https://elixx.cc/fcboavista.html",
+            "url": "https://srvagu.6522236688.shop:8443/hls/vndxx07b0.m3u8?s=0GqGRlQkr2wfUrQEpU6azA&e=1755554407",
+            "method": "playwright",
+            "referer": "https://admitsettle.net/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.5790.170 Safari/537.36",
+            "valid": false,
+            "error": null,
+            "cookies": {
+              "HstCfa3989073": "1755532807726",
+              "HstCla3989073": "1755532807726",
+              "HstCmu3989073": "1755532807726",
+              "HstPn3989073": "1",
+              "HstPt3989073": "1",
+              "HstCnv3989073": "1",
+              "HstCns3989073": "1",
+              "HstCfa3190245": "1755532808000",
+              "HstCmu3190245": "1755532808000",
+              "HstCnv3190245": "1",
+              "HstCns3190245": "1",
+              "HstCla3190245": "1755532808002",
+              "HstPn3190245": "2",
+              "HstPt3190245": "2",
+              "sc_is_visitor_unique": "rx11864503.1755532808.D1F5E21457C74DDE8C16B1EF7EDFF253.1.1.1.1.1.1.1.1.1",
+              "hf1": "1",
+              "is_unique": "sc11864503.1755532807.0",
+              "is_visitor_unique": "1755532807147912917"
+            }
+          }
+        ]
+      },
+      {
+        "source": "https://thedaddy.top/stream/stream-290.php",
+        "candidates": []
+      }
+    ],
+    "SPORT.TV6": [
+      {
+        "source": "https://thedaddy.top/stream/stream-291.php",
+        "candidates": []
+      }
+    ],
+    "DAZN 1": [
+      {
+        "source": "https://sportsonline.si/channels/pt/eleven1.php",
+        "candidates": [
+          {
+            "source": "https://sportsonline.si/channels/pt/eleven1.php",
+            "url": "https://srvagu.6522236688.shop:8443/hls/cytjtehz5yzmrt.m3u8?s=gkUsFLhXcyUpb1ajZCDqxQ&e=1755554502",
+            "method": "playwright",
+            "referer": "https://dropbang.net/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.5790.170 Safari/537.36",
+            "valid": false,
+            "error": null,
+            "cookies": {
+              "HstCfa4743517": "1755532903045",
+              "HstCla4743517": "1755532903045",
+              "HstCmu4743517": "1755532903045",
+              "HstPn4743517": "1",
+              "HstPt4743517": "1",
+              "HstCnv4743517": "1",
+              "HstCns4743517": "1",
+              "hf1": "1"
+            }
+          }
+        ]
+      },
+      {
+        "source": "https://elixx.cc/maritimo.html",
+        "candidates": [
+          {
+            "source": "https://elixx.cc/maritimo.html",
+            "url": "https://srvagu.6522236688.shop:8443/hls/cytjtehz5yzmrt.m3u8?s=_f_vFv-mKxP7YRIpOXw3DA&e=1755554523",
+            "method": "playwright",
+            "referer": "https://admitsettle.net/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.5790.170 Safari/537.36",
+            "valid": false,
+            "error": null,
+            "cookies": {
+              "HstCfa3989073": "1755532923656",
+              "HstCla3989073": "1755532923656",
+              "HstCmu3989073": "1755532923656",
+              "HstPn3989073": "1",
+              "HstPt3989073": "1",
+              "HstCnv3989073": "1",
+              "HstCns3989073": "1",
+              "HstCfa3190245": "1755532923962",
+              "HstCmu3190245": "1755532923962",
+              "HstCnv3190245": "1",
+              "HstCns3190245": "1",
+              "HstCla3190245": "1755532923964",
+              "HstPn3190245": "2",
+              "HstPt3190245": "2",
+              "sc_is_visitor_unique": "rx11864503.1755532924.9176D67AF2F64A3D93324929B17BEBF2.1.1.1.1.1.1.1.1.1",
+              "hf1": "1",
+              "is_unique": "sc11864503.1755532923.0",
+              "is_visitor_unique": "1755532923127306002"
+            }
+          }
+        ]
+      },
+      {
+        "source": "https://thedaddy.top/stream/stream-455.php",
+        "candidates": []
+      }
+    ],
+    "DAZN 2": [
+      {
+        "source": "https://sportsonline.si/channels/pt/eleven2.php",
+        "candidates": [
+          {
+            "source": "https://sportsonline.si/channels/pt/eleven2.php",
+            "url": "https://srvagu.6522236688.shop:8443/hls/98n38s9qy27ra.m3u8?s=Plc5-UJrwt4dEBH9TCgFTg&e=1755554581",
+            "method": "playwright",
+            "referer": "https://dropbang.net/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.5790.170 Safari/537.36",
+            "valid": false,
+            "error": null,
+            "cookies": {
+              "HstCfa4743517": "1755532981588",
+              "HstCla4743517": "1755532981588",
+              "HstCmu4743517": "1755532981588",
+              "HstPn4743517": "1",
+              "HstPt4743517": "1",
+              "HstCnv4743517": "1",
+              "HstCns4743517": "1",
+              "hf1": "1"
+            }
+          }
+        ]
+      },
+      {
+        "source": "https://elixx.cc/vitoria.html",
+        "candidates": [
+          {
+            "source": "https://elixx.cc/vitoria.html",
+            "url": "https://srvagu.6522236688.shop:8443/hls/98n38s9qy27ra.m3u8?s=AMyG6WwDuE2NtfMYB2nULg&e=1755554601",
+            "method": "playwright",
+            "referer": "https://admitsettle.net/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.5790.170 Safari/537.36",
+            "valid": false,
+            "error": null,
+            "cookies": {
+              "HstCfa3989073": "1755533001993",
+              "HstCla3989073": "1755533001993",
+              "HstCmu3989073": "1755533001993",
+              "HstPn3989073": "1",
+              "HstPt3989073": "1",
+              "HstCnv3989073": "1",
+              "HstCns3989073": "1",
+              "HstCfa3190245": "1755533002253",
+              "HstCmu3190245": "1755533002253",
+              "HstCnv3190245": "1",
+              "HstCns3190245": "1",
+              "HstCla3190245": "1755533002254",
+              "HstPn3190245": "2",
+              "HstPt3190245": "2",
+              "sc_is_visitor_unique": "rx11864503.1755533002.8C338AFC266F4A9C8F82B04301256B8E.1.1.1.1.1.1.1.1.1",
+              "is_unique": "sc11864503.1755533001.0",
+              "is_visitor_unique": "1755533001127724259",
+              "hf1": "1"
+            }
+          }
+        ]
+      },
+      {
+        "source": "https://thedaddy.top/stream/stream-456.php",
+        "candidates": []
+      }
+    ],
+    "DAZN 3": [
+      {
+        "source": "https://sportsonline.si/channels/pt/eleven3.php",
+        "candidates": [
+          {
+            "source": "https://sportsonline.si/channels/pt/eleven3.php",
+            "url": "https://srvagu.6522236688.shop:8443/hls/oguu22xaxhgpc.m3u8?s=Nek85-wI0CjA_bwEk-UdBQ&e=1755554659",
+            "method": "playwright",
+            "referer": "https://dropbang.net/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.5790.170 Safari/537.36",
+            "valid": false,
+            "error": null,
+            "cookies": {
+              "HstCfa4743517": "1755533059879",
+              "HstCla4743517": "1755533059879",
+              "HstCmu4743517": "1755533059879",
+              "HstPn4743517": "1",
+              "HstPt4743517": "1",
+              "HstCnv4743517": "1",
+              "HstCns4743517": "1",
+              "hf1": "1"
+            }
+          }
+        ]
+      },
+      {
+        "source": "https://elixx.cc/aves.html",
+        "candidates": [
+          {
+            "source": "https://elixx.cc/aves.html",
+            "url": "https://srvagu.6522236688.shop:8443/hls/oguu22xaxhgpc.m3u8?s=h4ZhIH4SGaLvpQ7GBeseTA&e=1755554680",
+            "method": "playwright",
+            "referer": "https://admitsettle.net/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.5790.170 Safari/537.36",
+            "valid": false,
+            "error": null,
+            "cookies": {
+              "HstCfa3989073": "1755533080543",
+              "HstCla3989073": "1755533080543",
+              "HstCmu3989073": "1755533080543",
+              "HstPn3989073": "1",
+              "HstPt3989073": "1",
+              "HstCnv3989073": "1",
+              "HstCns3989073": "1",
+              "HstCfa3190245": "1755533080847",
+              "HstCmu3190245": "1755533080847",
+              "HstCnv3190245": "1",
+              "HstCns3190245": "1",
+              "HstCla3190245": "1755533080849",
+              "HstPn3190245": "2",
+              "HstPt3190245": "2",
+              "sc_is_visitor_unique": "rx11864503.1755533081.2BB41548D5D24FEBAA035F013CDA1CB9.1.1.1.1.1.1.1.1.1",
+              "hf1": "1"
+            }
+          }
+        ]
+      },
+      {
+        "source": "https://thedaddy.top/stream/stream-457.php",
+        "candidates": []
+      }
+    ],
+    "DAZN 4": [
+      {
+        "source": "https://thedaddy.top/stream/stream-458.php",
+        "candidates": []
+      }
+    ],
+    "DAZN 5": [
+      {
+        "source": "https://thedaddy.top/stream/stream-459.php",
+        "candidates": []
+      }
+    ],
+    "BTV": [
+      {
+        "source": "https://sportsonline.si/channels/pt/btv.php",
+        "candidates": [
+          {
+            "source": "https://sportsonline.si/channels/pt/btv.php",
+            "url": "https://srvagu.6522236688.shop:8443/hls/2aw6pbbzi.m3u8?s=GNqVnqLGc0OSqmaDyJQjcA&e=1755554808",
+            "method": "playwright",
+            "referer": "https://dropbang.net/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.5790.170 Safari/537.36",
+            "valid": false,
+            "error": null,
+            "cookies": {
+              "HstCfa4743517": "1755533208831",
+              "HstCla4743517": "1755533208831",
+              "HstCmu4743517": "1755533208831",
+              "HstPn4743517": "1",
+              "HstPt4743517": "1",
+              "HstCnv4743517": "1",
+              "HstCns4743517": "1",
+              "hf1": "1"
+            }
+          }
+        ]
+      },
+      {
+        "source": "https://thedaddy.top/stream/stream-380.php",
+        "candidates": []
+      }
+    ]
+  }
+}

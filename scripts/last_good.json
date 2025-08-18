@@ -1,0 +1,22 @@
+{
+  "SPORT.TV1": {
+    "url": "https://srvagu.6522236688.shop:8443/hls/xt4p2tyjgzsp4t.m3u8?s=z3AAbRwAde6Y7I6Pu0JGnQ&e=1755555784",
+    "expires_at": 1755555754
+  },
+  "SPORT.TV2": {
+    "url": "https://srvagu.6522236688.shop:8443/hls/dm4f0c0bxcxxsau.m3u8?s=JP5hCkcNB3NWccmTEp8cJw&e=1755555805",
+    "expires_at": 1755555775
+  },
+  "SPORT.TV3": {
+    "url": "https://srvagu.6522236688.shop:8443/hls/4h80gffrr5803z.m3u8?s=mFYHvqFnTY73f9IE62SuKg&e=1755555825",
+    "expires_at": 1755555795
+  },
+  "SPORT.TV4": {
+    "url": "https://srvagu.6522236688.shop:8443/hls/hqwwgwycxiiy.m3u8?s=oVn1jPSx0bEOr5PwMfEd-w&e=1755555846",
+    "expires_at": 1755555816
+  },
+  "SPORT.TV5": {
+    "url": "https://srvagu.6522236688.shop:8443/hls/vndxx07b0.m3u8?s=ImFXN78BT21FJNdjELOBYQ&e=1755555867",
+    "expires_at": 1755555837
+  }
+}

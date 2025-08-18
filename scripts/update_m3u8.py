@@ -43,7 +43,13 @@ def find_m3u8_in_page(url, timeout=10):
     return matches[0]
 
 
-def _validate_url(url: str, referrer: Optional[str], user_agent: Optional[str], timeout: int = 10) -> bool:
+def _validate_url(url: str, referrer: Optional[str], user_agent: Optional[str], cookies: Optional[dict] = None, timeout: int = 10) -> bool:
+    """Validate the candidate URL by issuing a GET with optional headers/cookies.
+
+    Accept responses that either have an m3u8 content-type or whose body
+    begins with M3U metadata ("#EXTM3U" / "#EXTINF"). This is more robust
+    for CDNs that return application/octet-stream or obfuscated content-type.
+    """
     headers = {}
     if referrer:
         headers["Referer"] = referrer
@@ -51,16 +57,34 @@ def _validate_url(url: str, referrer: Optional[str], user_agent: Optional[str], 
     if user_agent:
         headers["User-Agent"] = user_agent
     try:
-        r = requests.get(url, headers=headers or None, timeout=timeout, stream=True)
+        r = requests.get(url, headers=headers or None, cookies=cookies or None, timeout=timeout, stream=True)
         content_type = r.headers.get("content-type", "")
-        ok = r.status_code == 200 and ("mpegurl" in content_type.lower() or url.lower().endswith('.m3u8'))
+        status_ok = r.status_code == 200
+        # read a small prefix of the body
+        try:
+            data = r.raw.read(2048)
+        except Exception:
+            data = b""
         r.close()
-        return ok
+
+        # check common indicators
+        data_text = ""
+        try:
+            data_text = data.decode('utf-8', errors='ignore')
+        except Exception:
+            data_text = ''
+
+        if status_ok and ("mpegurl" in content_type.lower() or url.lower().endswith('.m3u8')):
+            # likely an m3u8 even if content-type is non-standard
+            return True
+        if status_ok and ("#EXTM3U" in data_text or "#EXTINF" in data_text or data_text.strip().startswith('#EXT')):
+            return True
+        return False
     except Exception:
         return False
 
 
-def update_m3u_file(file_path: Path, tvg_id: str, new_url: str, dry_run: bool = False, referrer: Optional[str] = None, user_agent: Optional[str] = None, backup_dir: Optional[Path] = None):
+def update_m3u_file(file_path: Path, tvg_id: str, new_url: str, dry_run: bool = False, referrer: Optional[str] = None, user_agent: Optional[str] = None, backup_dir: Optional[Path] = None, group_filter: Optional[str] = None):
     text = file_path.read_text(encoding="utf-8")
     lines = text.splitlines()
 
@@ -68,6 +92,9 @@ def update_m3u_file(file_path: Path, tvg_id: str, new_url: str, dry_run: bool = 
     target_idx = None
     for i, line in enumerate(lines):
         if f'tvg-id="{tvg_id}"' in line:
+            # if a group_filter is requested, ensure the EXTINF line contains it
+            if group_filter and group_filter.lower() not in line.lower():
+                continue
             target_idx = i
             break
 
