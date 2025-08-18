@@ -92,9 +92,15 @@ def update_m3u_file(file_path: Path, tvg_id: str, new_url: str, dry_run: bool = 
     target_idx = None
     for i, line in enumerate(lines):
         if f'tvg-id="{tvg_id}"' in line:
-            # if a group_filter is requested, ensure the EXTINF line contains it
-            if group_filter and group_filter.lower() not in line.lower():
-                continue
+            if group_filter:
+                import re as _re
+                m = _re.search(r'group-title\s*=\s*"([^"]*)"', line, _re.I)
+                # require an explicit group-title and exact match (case-insensitive)
+                if not m:
+                    continue
+                group_value = m.group(1).strip()
+                if group_value.lower() != group_filter.lower():
+                    continue
             target_idx = i
             break
 

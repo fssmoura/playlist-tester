@@ -29,21 +29,25 @@ https://pjxvijl.5606087801.art:8443/hls/oguu22xaxhgpc.m3u8?s=CMak245OggOmsnc8kIl
 https://pjxvijl.5606087801.art:8443/hls/oguu22xaxhgpc.m3u8?s=CMak245OggOmsnc8kIlPmQ&e=1755468751
 #EXTINF:-1 tvg-country="PT" group-title="HD" tvg-id="Sport TV1.pt" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/portugal/sport-tv-1-pt.png",Sport TV 1
 #EXTVLCOPT:http-referrer=https://dropbang.net/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/139.0.7258.5 Safari/537.36
-https://pjxvijl.5606087801.art:8443/hls/xt4p2tyjgzsp4t.m3u8?s=TkWF4xyI20T4ZWWzFXAo-w&e=1755474000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.5790.170 Safari/537.36
+https://srvagu.6522236688.shop:8443/hls/xt4p2tyjgzsp4t.m3u8?s=jnsmV-AioiM8yoEIQJjVQQ&e=1755559822
 #EXTINF:-1 tvg-country="PT" group-title="HD" tvg-id="Sport TV2.pt" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/portugal/sport-tv-2-pt.png",Sport TV 2
 #EXTVLCOPT:http-referrer=https://dropbang.net/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.5790.170 Safari/537.36
-https://srvagu.6522236688.shop:8443/hls/dm4f0c0bxcxxsau.m3u8?s=JP5hCkcNB3NWccmTEp8cJw&e=1755555805
+https://srvagu.6522236688.shop:8443/hls/dm4f0c0bxcxxsau.m3u8?s=LfZ2VGkrFdxxYnRk-2UeyA&e=1755559843
 #EXTINF:-1 tvg-country="PT" group-title="HD" tvg-id="Sport TV3.pt" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/portugal/sport-tv-3-pt.png",Sport TV 3
 #EXTVLCOPT:http-referrer=https://dropbang.net/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/139.0.7258.5 Safari/537.36
-https://pjxvijl.5606087801.art:8443/hls/4h80gffrr5803z.m3u8?s=3KGfgt4YU9uogN3H8aPk7g&e=1755474032
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.5790.170 Safari/537.36
+https://srvagu.6522236688.shop:8443/hls/4h80gffrr5803z.m3u8?s=_6EgdrSXbj0yT_g9jAzTEQ&e=1755559864
 #EXTINF:-1 tvg-country="PT" group-title="HD" tvg-id="Sport TV4.pt" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/portugal/sport-tv-4-pt.png",Sport TV 4
 #EXTVLCOPT:http-referrer=https://dropbang.net/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.5790.170 Safari/537.36
-https://srvagu.6522236688.shop:8443/hls/hqwwgwycxiiy.m3u8?s=oVn1jPSx0bEOr5PwMfEd-w&e=1755555846
+https://srvagu.6522236688.shop:8443/hls/hqwwgwycxiiy.m3u8?s=6ux5GQWxX_VnqpWiwYfk7w&e=1755559884
 #EXTINF:-1 tvg-country="PT" group-title="HD" tvg-id="Sport TV5.pt" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/portugal/sport-tv-5-pt.png",Sport TV 5
+#EXTVLCOPT:http-referrer=https://dropbang.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.5790.170 Safari/537.36
+https://srvagu.6522236688.shop:8443/hls/vndxx07b0.m3u8?s=1rSC7wXt_1OKSjXrWfXRHw&e=1755559905
+#EXTINF:-1 tvg-country="PT" group-title="HD" tvg-id="Sport TV6.pt" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/portugal/sport-tv-6-pt.png",Sport TV 6
 #EXTVLCOPT:http-referrer=https://dropbang.net/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/139.0.7258.5 Safari/537.36
 https://pjxvijl.5606087801.art:8443/hls/vndxx07b0.m3u8?s=riBc4DZvpWIRgS0GRgBgww&e=1755474110
