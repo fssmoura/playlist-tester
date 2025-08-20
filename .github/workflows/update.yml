@@ -4,8 +4,12 @@ permissions:
 
 on:
   schedule:
-    - cron: '0 * * * *'    # run hourly at minute 0 (UTC)
+    - cron: '0 * * * *'
   workflow_dispatch:
+
+concurrency:
+  group: update-playlist
+  cancel-in-progress: true
 
 jobs:
   update:
@@ -37,25 +41,24 @@ jobs:
 
       - name: Commit changes
         run: |
+          set -e
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          # stage and commit any changes
           if git diff --quiet -- data/iptv.m3u8 scripts/last_good.json; then
             echo "No changes"
             exit 0
           fi
-          git add data/iptv.m3u8 scripts/last_good.json || true
-          git commit -m "Auto-update playlist: $(date -u +'%Y-%m-%d %H:%M UTC')" || true
 
-          # fetch remote and rebase our local commit(s) on top of the latest main
-          git fetch origin main
-          if ! git rebase origin/main; then
-            echo "Rebase failed; attempting rebase with autostash"
-            if ! git rebase --autostash origin/main; then
-              echo "Rebase ultimately failed; aborting push to avoid conflicts"
-              git rebase --abort || true
-              exit 0
-            fi
-          fi
-          git push origin HEAD
+          git add data/iptv.m3u8 scripts/last_good.json
+          git commit -m "Auto-update playlist: $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git pull --rebase origin main || true
+
+          # push with a couple of retries to avoid transient races
+          for i in 1 2 3; do
+            if git push origin HEAD; then exit 0; fi
+            echo "Push failed (attempt $i), retrying..."
+            sleep 2
+            git pull --rebase origin main || true
+          done
+          echo "Push failed after retries" && exit 1
