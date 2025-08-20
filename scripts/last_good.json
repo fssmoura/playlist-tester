@@ -1,50 +1,30 @@
 {
-  "SPORT.TV1": {
-    "url": "https://srvagu.6522236688.shop:8443/hls/xt4p2tyjgzsp4t.m3u8?s=z3AAbRwAde6Y7I6Pu0JGnQ&e=1755555784",
-    "expires_at": 1755555754
-  },
-  "SPORT.TV2": {
-    "url": "https://srvagu.6522236688.shop:8443/hls/dm4f0c0bxcxxsau.m3u8?s=JP5hCkcNB3NWccmTEp8cJw&e=1755555805",
-    "expires_at": 1755555775
-  },
-  "SPORT.TV3": {
-    "url": "https://srvagu.6522236688.shop:8443/hls/4h80gffrr5803z.m3u8?s=mFYHvqFnTY73f9IE62SuKg&e=1755555825",
-    "expires_at": 1755555795
-  },
-  "SPORT.TV4": {
-    "url": "https://srvagu.6522236688.shop:8443/hls/hqwwgwycxiiy.m3u8?s=oVn1jPSx0bEOr5PwMfEd-w&e=1755555846",
-    "expires_at": 1755555816
-  },
-  "SPORT.TV5": {
-    "url": "https://srvagu.6522236688.shop:8443/hls/vndxx07b0.m3u8?s=ImFXN78BT21FJNdjELOBYQ&e=1755555867",
-    "expires_at": 1755555837
-  },
   "Sport TV1.pt": {
-    "url": "https://nurumn.6670391863.store:8443/hls/xt4p2tyjgzsp4t.m3u8?s=PTxWaz_kzEUF7dy23AxxCg&e=1755583719",
-    "expires_at": 1755583689
+    "url": "https://srvagu.6522236688.shop:8443/hls/xt4p2tyjgzsp4t.m3u8?s=3iEAZyDdDcm_XvvMznwmdA&e=1755723894",
+    "expires_at": 1755723864
   },
   "Sport TV2.pt": {
-    "url": "https://nurumn.6670391863.store:8443/hls/dm4f0c0bxcxxsau.m3u8?s=Lm5rDpWAj1nCTMNz7FOoFw&e=1755583743",
-    "expires_at": 1755583713
+    "url": "https://srvagu.6522236688.shop:8443/hls/dm4f0c0bxcxxsau.m3u8?s=f5SRW7GU0l-ZILmQVgFdUA&e=1755723914",
+    "expires_at": 1755723884
   },
   "Sport TV3.pt": {
-    "url": "https://nurumn.6670391863.store:8443/hls/4h80gffrr5803z.m3u8?s=wkVHv54XobnJ7tvdal7ieg&e=1755583762",
-    "expires_at": 1755583732
+    "url": "https://srvagu.6522236688.shop:8443/hls/4h80gffrr5803z.m3u8?s=EqpQDzHrBo9HLR4tbsc0PQ&e=1755723935",
+    "expires_at": 1755723905
   },
   "Sport TV4.pt": {
-    "url": "https://nurumn.6670391863.store:8443/hls/hqwwgwycxiiy.m3u8?s=VJAgwig-5zsF-NqIlDMNXQ&e=1755583783",
-    "expires_at": 1755583753
+    "url": "https://srvagu.6522236688.shop:8443/hls/hqwwgwycxiiy.m3u8?s=EGa-XzU3VcN6iUcvOHtVcA&e=1755723955",
+    "expires_at": 1755723925
   },
   "Sport TV5.pt": {
-    "url": "https://nurumn.6670391863.store:8443/hls/vndxx07b0.m3u8?s=vrwNeNwDEA353gJuVLS6CQ&e=1755583802",
-    "expires_at": 1755583772
+    "url": "https://srvagu.6522236688.shop:8443/hls/vndxx07b0.m3u8?s=aAF4DqlWmfW0G_YP5IsVYg&e=1755723976",
+    "expires_at": 1755723946
   },
   "DAZN 1.pt": {
-    "url": "https://nurumn.6670391863.store:8443/hls/cytjtehz5yzmrt.m3u8?s=L_dVCAh_0Q7P8ILaR-sebA&e=1755583837",
-    "expires_at": 1755583807
+    "url": "https://srvagu.6522236688.shop:8443/hls/cytjtehz5yzmrt.m3u8?s=K40s8dm93BPvglbl7Nc6VQ&e=1755723996",
+    "expires_at": 1755723966
   },
   "DAZN 2.pt": {
-    "url": "https://nurumn.6670391863.store:8443/hls/98n38s9qy27ra.m3u8?s=hqyVhj2RzEd6u8jksRp3Jg&e=1755583859",
-    "expires_at": 1755583829
+    "url": "https://srvagu.6522236688.shop:8443/hls/98n38s9qy27ra.m3u8?s=kZFPTypIvN4X8cTLcYWbzA&e=1755724017",
+    "expires_at": 1755723987
   }
 }
