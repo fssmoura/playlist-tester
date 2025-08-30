@@ -56,9 +56,7 @@ def probe_source(page_url: str, use_playwright: bool, timeout: int = 10):
     if use_playwright and capture_fn:
         try:
             candidates = capture_fn(page_url, timeout=timeout)
-            # capture_fn returns list of (url, referer, user-agent)
             for c in candidates:
-                # support (url, referer, user-agent, cookies) or (url, referer, user-agent)
                 if isinstance(c, (list, tuple)) and len(c) >= 1:
                     url = c[0]
                     ref = c[1] if len(c) > 1 else None
@@ -68,6 +66,7 @@ def probe_source(page_url: str, use_playwright: bool, timeout: int = 10):
             return results
         except Exception as e:
             results.append((None, None, None, f"playwright-error: {e!s}"))
+            return results
 
     return results
 
